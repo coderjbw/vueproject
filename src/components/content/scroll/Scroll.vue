@@ -30,6 +30,7 @@
       this.scroll.on('scroll',(position)=>{
         this.$emit('scrollposition',position);
         this.$emit("detailscroll",position);
+        this.$emit('categoryscroll',position);
       })
       this.scroll.on('pullingUp',()=>{
           this.$emit('loadpulling');

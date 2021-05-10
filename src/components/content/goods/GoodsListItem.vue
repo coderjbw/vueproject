@@ -22,7 +22,7 @@
     },
     computed:{
       showImg(){
-        return this.goodsitem.image || this.goodsitem.showLarge.img
+        return this.goodsitem.img || this.goodsitem.image || this.goodsitem.showLarge.img
       }
     },
     methods:{
